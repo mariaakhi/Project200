@@ -1,0 +1,42 @@
+/* Universal */
+body{
+   
+}
+
+/* xx Universal xx */
+
+/* Hero Section */
+.heroback{
+
+    margin-left:-30px;
+}
+.heroimg{
+   background-image: url(assets/getty_496612468_2000138820009280460_336567.jpg);
+   background-position: center center;
+   background-size:cover;
+   position:relative;
+   width:100%;
+   height:80vh;
+   display:flex;
+   align-items:center;
+   z-index: 0;
+}
+.imgherocolor{
+    background-image:linear-gradient(to right,rgb(36, 0, 0), rgba(0,0,0,0.4));
+    position:absolute;
+    width:100%;
+    height:80vh;
+    z-index:1;
+}
+.herotxt{
+    z-index: 12;
+    color:#fff;
+    margin-left: 4rem;
+}
+.tex{
+    font-family:'Staatliches', cursive;
+    font-size:4rem;
+    font-weight:700;
+    color: rgb(235, 213, 211);
+}
+/* xx Hero Section xx */
